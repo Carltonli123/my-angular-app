@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . ./
 CMD [ "npm", "start" ]
-EXPOSE 4200
+EXPOSE 4200:80
