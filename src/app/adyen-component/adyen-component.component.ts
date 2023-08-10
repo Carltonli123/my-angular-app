@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-adyen-component',
   templateUrl: './adyen-component.component.html',
-  styleUrls: ['./adyen-component.component.css']
+  styleUrls: ['./adyen-component.component.css'],
 })
 export class AdyenComponentComponent {
 
